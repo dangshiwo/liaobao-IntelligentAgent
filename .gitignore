@@ -1,0 +1,19 @@
+# Local environments and caches
+.venv/
+.python/
+__pycache__/
+*.py[cod]
+.cache/
+# Model weights and generated training results
+models/
+run_150epochs/
+*.safetensors
+*.bin
+# Local conversations and raw external data
+interactive_answers.jsonl
+instinwild_ch.json
+文件清单.csv
+# Generated logs and reports
+*.log
+*_pid.txt
+preflight_report.json
